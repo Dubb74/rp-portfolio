@@ -1,0 +1,11 @@
+#nav{  
+  /* font-style: oblique; */
+  background-color: black;color: white;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  border: solid black 1px;
+}
+.pic1{
+  width: 100px;
+}
