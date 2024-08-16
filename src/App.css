@@ -16,7 +16,7 @@ body{
   
   justify-content:space-evenly;
   align-items: center;
-  /* border: solid black 1px; */
+  border: solid black 1px;
   position: fixed; 
 }
 .pic1{
@@ -53,4 +53,23 @@ body{
   padding: 2%;
   font-size: 30px;
   font-family:'Times New Roman', Times, serif
+}
+.skills{
+  /* display: flex; */
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: solid red 3px; */
+  height: 80%;
+  width: 100%;
+}
+.pic2{
+  
+  
+  width: 100px;
+  
+
+}
+.img22{
+  display: flex;
+  justify-content:space-between
 }
