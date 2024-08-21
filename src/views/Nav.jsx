@@ -1,5 +1,5 @@
 import img1 from "../img/logo.jpg"
-
+import{Link} from "react-router-dom"
 function Nav() {
     return(
         <nav id="nav-bar">
@@ -15,8 +15,12 @@ function Nav() {
     <a href='Skills' className='nav-link'>Skills</a>
     
 
-    <a href='project' className='nav-link'>Project 
-    </a>
+    {/* <a href='project' className='nav-link'>Project 
+    </a> */}
+    <Link to= "/project">
+    
+    projects
+    </Link>
     <a href='contact' className='nav-link'>Contact
     </a>
     <a href='Linkedin' className='nav-link'><i class="fa-brands fa-linkedin"></i></a>
